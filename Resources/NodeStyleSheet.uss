@@ -1,0 +1,91 @@
+#contents {
+    background-color: rgba(35, 35, 35, 0.8);
+}
+#title {
+    max-height: 67px;
+height: auto;
+}
+
+DialogueNode #title {
+    background-color: rgba(87, 108, 132, 1);
+}
+
+DialogueTextNode #title {
+    background-color: rgba(87, 108, 132, 1);
+}
+
+DialogueFunctionNode #title {
+    background-color: rgba(132, 130, 87, 1);
+}
+
+DialogueBranchNode #title {
+    background-color: rgb(106, 87, 132);
+}
+
+DialogueStartNode #title {
+    background-color: rgba(91, 132, 87, 1);
+}
+DialogueExitNode #title {
+    background-color: rgb(132, 87, 87);
+}
+#imageBackground{
+    margin: 1px;
+    height: 64px;
+    width: 64px;
+    background-color: rgba(42, 42, 42, 1);
+    border-width: 1px;
+    border-bottom-color: rgba(33,33,33,1);
+    border-left-color: rgba(33,33,33,1); 
+    border-right-color: rgba(33,33,33,1);
+    border-top-color: rgba(13,13,13,1);
+    border-radius: 3px;
+    
+}
+#displayNameTextField {
+    min-height: 17px;
+    height: auto;
+    width: auto;
+    max-height: 51px;
+    min-width: 90px;
+    max-width: 150px;
+    flex: auto;
+}
+
+#placeholder {
+    color: darkgrey;
+}
+
+#textField {
+    min-height: 51px;
+    min-width: 200px;
+    flex: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+#valueField{
+    min-height: 17px;
+    min-width: 50px;
+    max-width: 150px;
+}
+#inputTextField {
+    min-height: 17px;
+    min-width: 50px;
+    max-width: 200px;
+}
+
+#previewImg {
+    min-height: 64px;
+    max-height: 64px;
+    min-width: 64px;
+    max-width: 64px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+#columBox {
+    flex-direction: column;
+}
+
+#rowBox {
+    flex-direction: row;
+}

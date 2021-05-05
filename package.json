@@ -1,0 +1,17 @@
+{
+  "name": "com.cosmorift.dialoguegrapheditor",
+  "version": "0.0.1",
+  "displayName": "Dialogue Graph Editor",
+  "description": "com.dbrizov.naughtyattributes - https://github.com/dbrizov/NaughtyAttributes\ncom.github.siccity.serializablecallback - https://github.com/Siccity/SerializableCallback",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+    "com.dbrizov.naughtyattributes": "1.0.0",
+    "com.github.siccity.serializablecallback": "1.0.0"
+  },
+  "author": {
+    "name": "CosmoRift"
+  },
+  "type": "tool",
+  "hideInEditor": false
+}
